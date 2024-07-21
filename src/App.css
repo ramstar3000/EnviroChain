@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #EDEFD5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #007362;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  background-color: #007362;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #007362;
+}
+
+pop-up {
+  background-color: #EDEFD5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: #007362;
+  justify-content: justify;
+  text-align: center;
+
+}
+
+#center {
+  text-align: center;
+  justify-content: center;
+}
+
+.center2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensures children are stacked vertically */
+  text-align: center;    /* Centers text inside */
+}
