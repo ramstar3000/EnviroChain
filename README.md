@@ -5,7 +5,8 @@ Enviro-Chain develops a decentralized platform for smart environmental monitorin
 # Validation Routines
 To view the validation routines you can look in the public folder and view the add_csv_to_chain.js and the validate_username.js files. Here you can see the validation routines for the username and the csv file. This uses the polka chain and you need to  add your mnemonic inside.
 
-
+# Additional moonbase support
+The moonbase code was generated from the moonbase substrate in python as seen in the folder and that has been referred to in the JS files!!!
 
 # Running instructions
 
@@ -31,19 +32,19 @@ Enviro-Chain is a decentralized platform designed for smart environmental monito
 
 # Technical Details
 
-How Polkadot Blockchain is Used 
+## How Polkadot Blockchain is Used 
 
-Sharding for Scalability: 
+### Sharding for Scalability: 
     Enviro-Chain leverages Polkadot's sharding technology to divide the network into smaller, manageable pieces that can process transactions in parallel. This approach significantly enhances the scalability of the platform, allowing it to handle large volumes of environmental data without compromising performance. Low Transaction Costs: By utilizing Polkadot's scalable infrastructure, Enviro-Chain ensures that transaction costs remain low. This economic viability is crucial for storing and managing vast amounts of sensor data. Immutable, Decentralized, and Transparent 
     
-Storage:
+### Storage:
     Data collected by Enviro-Chain sensors is stored on the Polkadot blockchain, ensuring immutability and transparency. This decentralized storage solution prevents data tampering and provides a trustworthy record of environmental conditions. User Authentication and Identity Verification: Each sensor and user in the Enviro-Chain network is assigned a unique identity on the Polkadot network. User logins are verified using the signatureVerify function, which ensures secure authentication and prevents unauthorized access. Security: The Polkadot network's robust security model protects against various types of attacks, ensuring that the data collected by Enviro-Chain is secure and reliable. 
 
-Non-Blockchain Technology used: 
+## Non-Blockchain Technology used: 
 
-Machine Learning (ML): Data Preprocessing: Cleaning and organizing collected data to make it suitable for ML models. Feature Engineering: Extracting relevant features from raw data to improve model accuracy. Predictive Analytics: Using supervised and unsupervised ML algorithms to analyze data and predict future trends. 
+### Machine Learning (ML): Data Preprocessing: Cleaning and organizing collected data to make it suitable for ML models. Feature Engineering: Extracting relevant features from raw data to improve model accuracy. Predictive Analytics: Using supervised and unsupervised ML algorithms to analyze data and predict future trends. We initially use a NN model for prediction, then a Linear regression and GPT model. Finally, we used othe models
 
-Optimization Algorithms: Implementing algorithms to provide recommendations for improving environmental conditions and energy efficiency. 
+### Optimization Algorithms: Implementing algorithms to provide recommendations for improving environmental conditions and energy efficiency. 
 
-Data Visualization: Dashboards: User-friendly interfaces displaying real-time data, insights, and trends. Reporting Tools: Generating detailed reports on environmental conditions and energy usage for users
+### Data Visualization: Dashboards: User-friendly interfaces displaying real-time data, insights, and trends. Reporting Tools: Generating detailed reports on environmental conditions and energy usage for users
 
