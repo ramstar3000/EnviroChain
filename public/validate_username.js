@@ -15,7 +15,7 @@ async function connectToPolkadot() {
 
 
   async function createAndSignTransaction(api, hash) {
-      const mnemonic = 'salt similar soccer drip exhibit crime ladder collect silver vague team net'; // Replace with your mnemonic
+      const mnemonic = ''; // Replace with your mnemonic
       const seed = mnemonicToMiniSecret(mnemonic);
       const keyPair = sr25519PairFromSeed(seed);
     
