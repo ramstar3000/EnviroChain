@@ -1,6 +1,7 @@
 # PolkaHackathon
 Enviro-Chain develops a decentralized platform for smart environmental monitoring and optimization to help residential and commercial spaces improve environmental quality and energy efficiency by integrating real-time environmental parameters with blockchain technology for data integrity and security, and using machine learning for predictive analytics and optimization.
 
+For the presentation slides: https://www.canva.com/design/DAGLf247Ucs/Cur30IIEmBXqn_S9ZMCSTw/edit?utm_content=DAGLf247Ucs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # Validation Routines
 To view the validation routines you can look in the public folder and view the add_csv_to_chain.js and the validate_username.js files. Here you can see the validation routines for the username and the csv file. This uses the polka chain and you need to  add your mnemonic inside.
