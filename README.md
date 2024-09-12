@@ -1,4 +1,4 @@
-# PolkaHackathon
+# PolkaHackathon - Constant development
 Enviro-Chain develops a decentralized platform for smart environmental monitoring and optimization to help residential and commercial spaces improve environmental quality and energy efficiency by integrating real-time environmental parameters with blockchain technology for data integrity and security, and using machine learning for predictive analytics and optimization.
 
 For the presentation slides: https://www.canva.com/design/DAGLf247Ucs/Cur30IIEmBXqn_S9ZMCSTw/edit?utm_content=DAGLf247Ucs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
